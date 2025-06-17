@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE doc [
+<!ENTITY movement_1 SYSTEM "1_Choral_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "2_Coro_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "3_Aria_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "4_Rezitativ_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "5_Aria_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "6_Rezitativ_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "7_Choral_Herzlich tut mich verlangen.mei">
+]> 
+
+
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead xml:id="mnfghsg">
+      <fileDesc xml:id="f15pvap9">
+         <titleStmt xml:id="tootpty">
+            <title>Herzlich tut mich verlangen</title>
+            <respStmt>
+               <persName role="composer" xml:id="graupnerC" corresp="#graupnerC">Christoph
+                  Graupner</persName>
+               <persName role="lyricist" xml:id="lichtenbergJC" corresp="#lichtenbergJC">Johann
+                  Conrad Lichtenberg</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xml:id="editionStmtHerzlich">
+            <edition xml:id="editionHerzlich">
+               <title>Herzlich tut mich verlangen</title>
+               <date xml:id="lastcodeupdate">19/09/2024</date>
+               <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term>
+            </edition>
+            <editor xml:id="editorReiland">
+               <persName>Sophie Reiland-Mézil</persName>
+            </editor>
+         </editionStmt>
+         <pubStmt xml:id="pubStmtHerzlich">
+            <date xml:id="publish-date" isodate="2024-04">September 2024</date>
+            <publisher xml:id="fdshsfdioa">IReMus</publisher>
+            <address xml:id="ldhesf">
+               <addrLine>Institut de recherche en Musicologie</addrLine>
+               <addrLine>Bibliothèque National de France</addrLine>
+               <addrLine>Quai François Mauriac</addrLine>
+               <addrLine>75706 PARIS</addrLine>
+            </address>
+         </pubStmt>
+         <sourceDesc xml:id="sjfgadk">
+            <source xml:id="source_A" corresp="#manifestation_1_sourceA"> 
+                <bibl>
+                   <seg>
+                      <relationList label="parts">
+                         <relationList label="continuo" xml:id="continuoPart">
+                         </relationList>
+                         <relationList label="violinVioletta1" xml:id="violinVioletta1Part">
+                         </relationList>
+                         <relationList label="violinVioletta2" xml:id="violinVioletta2Part">
+                         </relationList>
+                         <relationList label="viola" xml:id="violaPart">
+                         </relationList>
+                         <relationList label="violone" xml:id="violonePart">
+                         </relationList>
+                         <relationList label="oboeFlute1" xml:id="oboeFlute1Part">
+                            <relation rel="isPartOf"  n="1" corresp="#FacsOboeFlute1_page1"></relation>
+                            <relation rel="isPartOf" n="2" corresp="#FacsOboeFlute1_page2"></relation>
+                            <relation rel="isPartOf" label="p_3" corresp="#FacsOboeFlute1_page3"></relation>
+                         </relationList>
+                         <relationList label="oboeFlute2" xml:id="oboeFlute2Part">
+                         </relationList>
+                         <relationList label="horn1" xml:id="horn1Part">
+                         </relationList>
+                         <relationList label="horn2" xml:id="horn2Part">
+                         </relationList>
+                         <relationList label="canto1" xml:id="canto1Part">
+                         </relationList>
+                         <relationList label="canto2" xml:id="canto2Part"> 
+                         </relationList>
+                         <relationList label="alto" xml:id="altoPart">
+                         </relationList>
+                         <relationList label="tenor" xml:id="tenorPart">  
+                         </relationList>
+                         <relationList label="bass" xml:id="bassPart">
+                         </relationList>
+                      </relationList>
+                   </seg>
+                </bibl>
+            </source>
+            <source xml:id="source_B"  target="#manifestation_1_sourceB"/>
+            <source xml:id="source_C" target="#manifestation_2">
+               <!-- ergänzen: URL falls Veröffentlichung -->
+               <bibl>
+                  <title>Hertzlich thut mich verlangen (GWV 1165/21) <lb/>Édition critique de la
+                     cantate de Christoph Graupner et exploration de la situation sociale </title>
+                  <author>Regina Sophie Reiland</author>
+                  <date type="submissionDate">22 juin 2023</date>
+                  <annot>Dossier de Master 1, parcours recherche en musicologie</annot>
+                  <corpName xml:id="sorbonneUniversté">Sorbonne université</corpName>
+                  <unpub/>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDescHerzlich">
+         <appInfo xml:id="a135uexs">
+            <application xml:id="afdgy7o" isodate="2024-02-14T19:49:24" version="4.1.0-c482e35">
+               <name xml:id="n1xubqvo">Verovio</name>
+               <p xml:id="p1ibcr28">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+
+         <editorialDecl>
+            <segmentation>
+               <head>[Gliederung]</head>
+               <p type="movements" corresp="#FacsViolino1Part"> Graupner verwendet keine
+                  Satzbezeichnungen im herkömmlichen Sinne, lediglich Text-Incipits und doppelte
+                  Taktstriche. Er macht darüber hinaus Angaben zur musikalischen Form, wenn ein
+                  Instrument pausiert: "Recitat: tacet" <ref type="folio">Beispielsweise zu sehen
+                     auf Folio 10v</ref>
+                  Die Sätze werden in dieser Edition in eckigen Klammern
+                  folgendermaßen angegeben: <list>
+                     <li>[1. Choral]</li>
+                     <li>[2. Chor]</li>
+                     <li>[3. Aria]</li>
+                     <li>[4. Rezitativ]</li>
+                     <li>[5. Aria]</li>
+                     <li>[6. Rezitativ]</li>
+                     <li>[7. Choral]</li>
+                  </list>
+               </p>
+            </segmentation>
+
+            <interpretation>
+               <head><title/></head>
+               <p type="sources"> In dieser Edition werden das Stimmmaterial als Hauptquelle gewertet, da es die genauste, von Graupners Hand erstellte Repräsentation des Werks darstellt. Die Stimmen, die nicht von seiner Hand stammen, werden zur Erstellung der Edition nicht berücksichtigt. Als Sekundärquelle (B) dient die Partitur.</p>
+               <p type="repetitions"> Es werden die in den Quellen vorhandenen Wiederholungszeichen
+                  verwendet, mit einer Ausnahme: In der handschriftlichen Partitur wird die
+                  Choralstrophe am Ende nicht noch einmal notiert. Aus aufführungspraktischen
+                  Gründen wurde die zweite Choralstrophe in dieser Edition am Ende ausnotiert. </p>
+               <p type="alteration ambiguity"> Sollte Unklarheit bezüglich der Lesart eines
+                  Versetzungszeichen bestehen, erscheint dieses in Klammern vor der Note und wird in
+                  einem kritischen Bericht aufgeschlüsselt. </p>
+               <p type="rhythmical homogenisation"> Sollte der Rhythmus zwischen zwei Stimmen, die
+                  unisono geführt sind, von einander abweichen, werden sie aneinander angeglichen,
+                  die Änderung in der Partitur durch Kleinstich angezeigt und in einem kritischen
+                  Kommentar erläutert. </p>
+               <p type="beams"> Graupner scheint Notenbalken zu verwenden, um eine Phrasierung
+                  anzudeuten. Aus diesem Grund folgt die Edition der von Graupner verwendeten
+                  Notengruppierung. </p>
+               <p type="dynamics"> Graupner verwendet hauptsächlich die Dynamiken pp und f, seltener
+                  p. In homophonen Passagen werden Dynamikangaben gegebenenfalls in der Partitur in
+                  eckigen Klammern ergänzt und in einem kritischen Kommentar erläutert. </p>
+               <p type="slurs"> Graupners Phrasierungsbögen lassen sich nicht eindeutig
+                  rekonstruieren, da die Quellen einige Ungenauigkeiten aufweisen. Ergänzte
+                  Phrasierungen werden durch gepunktete Linien dargestellt. </p>
+               <p type="ornements"> Graupner scheint die Zeichen 𝆖 und + synonym zu verwenden, wie
+                  aus der Violinstimme hervorgeht. <ref type="folia">Fol. 10r, Takt 8, 17</ref>
+                  In der Edition wird durchgängig 𝆖 verwendet, ohne dass dies in einem kritischen Kommentar erläutert wird. </p>
+            </interpretation>
+            <normalization>
+               <p type="Order of instruments"> Es wird die Reihenfolge der einzelnen Instrumente der
+                     <ref corresp="#source_B"> autographen Partitur</ref> beibehalten. </p>
+               <p type="clefs"> Es werden durchgehend moderne Notenschlüssel verwendet.
+               </p>
+               <p type="instrumental and vocal nomenclature"> Die von Graupner in den einzelnen
+                  Stimmen verwendeten Instrumenten- und Stimmbezeichnungen wurden den aktuellen
+                  Konventionen angepasst: <table>
+                     <tr>
+                        <th facs="#facsManifest1_sourceA_StimmeX">Bezeichnungen von Graupner</th>
+                        <td>Corn de Chaße/Corn: de selu I, 2</td>
+                        <td>Flauto, Flauto 2</td>
+                        <td>Hautbois I, 2</td>
+                        <td>Violino I, 2</td>
+                        <td>Violett: I, 2</td>
+                        <td>Viola</td>
+                        <td>Violone</td>
+                        <td>Canto I, 2</td>
+                        <td>Alto</td>
+                        <td>Tenore</td>
+                        <td>Baßo</td>
+                        <td>Continuo</td>
+                     </tr>
+                     <tr>
+                        <th>Bezeichnungen in der Edition</th>
+                        <td>Horn 1, 2</td>
+                        <td>Flöte 1, 2</td>
+                        <td>Oboe 1, 2</td>
+                        <td>Violine 1, 2</td>
+                        <td>Violetta 1, 2</td>
+                        <td>Viola</td>
+                        <td>[Da die Violonstimme mit der Continuo-Stimme identisch ist, wird sie in
+                           der Partitur nicht extra notiert.]</td>
+                        <td>Sopran 1, 2</td>
+                        <td>Alt</td>
+                        <td>Tenor</td>
+                        <td>Bass</td>
+                        <td>Basso continuo</td>
+                     </tr>
+                  </table>
+               </p>
+               <p type="alterations"> Die Versetzungszeichen wurden an die modernen Konventionen
+                  angepasst. In den folgenden Fällen erfolgt hierzu kein kritischer Kommentar: <list>
+                     <li>Graupner verwendet keine Auflösungszeichen, stattdessen nutzt er ♯ und ♭,
+                        um eine Auflösung eines vorherigen Versetzungszeichen anzuzeigen. In dieser
+                        Edition werden in diesen Fällen systematisch moderne Auflösungszeichen
+                        verwendet.</li>
+                     <li>Die Auflösungszeichen in der handschriftlichen Quelle gelten normalerweise
+                        nur für die darauffolgende Note. In dieser Edition gelten
+                        Versetzungszeichen, wie in modernen Editionen üblich, für den ganzen
+                        Takt.</li>
+                     <li>Zur Erinnerung gesetzte Versetzungszeichen werden in runden Klammern
+                        abgebildet.</li>
+                  </list>
+               </p>
+               <p type="rests"> Pausen werden modernen Konventionen angepasst, ohne dass dies in der
+                  Partitur kenntlich gemacht wird und einen kritischen Kommentar nach sich zieht. </p>
+               <p type="beams">
+                  Sollte die Balkierung von zwei oder mehr unisono geführten Stimmen von einander abweichen, werden sie ohne
+                  kritischen Kommentar angeglichen. Dies geschah nur an einer Stelle im <ref>1. Choral,
+                     Takt 7, Vln 1, Ob 1. </ref>
+               </p>
+
+               <p>
+                  Wir folgen der Bezifferung der Continuostimme, <ref corresp="#facsimile_017_019">Fol. 8v-9v</ref> die sehr detailliert ist. Lediglich die Versetzungszeichen werden an moderne Konventionen
+                  angepasst, ohne dass dies in der Partitur kenntlich gemacht oder in einem
+                  kritischen Kommentar erläutert wird. </p>
+               <p type="text"> Für die Wiederherstellung des Textes dient der <ref
+                     corresp="#source_C">Druck des Kantatentextzyklus</ref> als Quelle, da die
+                  Orthographie und Zeichensetzung Graupners nicht immer leicht lesbar ist und starke
+                  Varianz bezüglich der Rechtschreibung aufweist. Der Text wurde der Neuen Deutschen
+                  Rechtschreibung angepasst. Folgende Fälle konnten dabei auftreten: <list
+                     type="cases of text normalization">
+                     <li>Virgel, die bis ins 18. Jahrhundert zur Unterteilung von Sätzen verwendet
+                        wurden, werden als moderne Kommata abgebildet. Sollten manche Virgel nicht
+                        den modernen Kommaregeln entsprechen, werden sie entfernt. Dies wird jeweils
+                        in einem kritischen Kommentar erläutert.</li>
+                     <li>Groß- und Kleinschreibung wird automatisch der Neuen Deutschen
+                        Rechtschreibung angepasst, ohne dass dies in einem kritischen Kommentar
+                        erklärt wird</li>
+                     <li>Jede sonstige orthographische Anpassung wird in einem kritischen Kommentar
+                        erläutert</li>
+                     <li>Ausrufezeichen und Fragezeichen inmitten eines Satzes werden systematisch
+                        durch Kommata ersetzt. In einigen Fällen werden sie jedoch aus
+                        deklamatorischen Gründen beibehalten. In jedem Fall wird dies in einem
+                        kritischen Kommentar erläutert</li>
+                     <li>Die Großschreibung des Versanfangs der Quelle wird beibehalten.</li>
+                     <li>Textwiederholungen werden immer durch Kommata getrennt.</li>
+                     <li>In den Quellen A und B das Zeichen % verwendet, um Textwiederholungen
+                        anzudeuten. In der Partitur werden Textwiederholungen hingegen immer
+                        ausnotiert.</li>
+                  </list>
+               </p>
+            </normalization>
+            <correction>
+               <p type="rhythm"> Sollten die von Graupner verwendeten Rhythmen in Konflikt mit der
+                  heutigen Notationskonvention stehen, werden Anpassungen genommen, die in einem
+                  kritischen Kommentar dargelegt werden. In der Partitur werden rhythmische
+                  Änderungen durch Kleinstich
+                  dargestellt.
+               </p>
+               <p type="figuredBass"> Sollte eine Generalbassbezifferung Graupners in Konflikt mit
+                  den anderen Stimmen stehen, wird diese korrigiert, in Klammern dargestellt und in
+                  einem kritischen Kommentar erläutert. </p>
+            </correction>
+         </editorialDecl>
+         <projectDesc>
+            <p>Entstanden im Rahmen eines Praktikums am Institut de recherche en musicologie in
+               Paris</p>
+            <p>Betreut durch Christophe Guillotel-Nothmann, Chargé de Recherche des CNRS</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work xml:id="dfnjs">
+            <identifier type="Graupner-Werke-Verzeichnis-Nummer">1165/21</identifier>
+            <title>Herzlich tut mich verlangen</title>
+            <composer xml:id="dkjsekjds">
+               <persName role="composer" corresp="#graupnerC">Christoph Graupner</persName>
+               <date startdate="1683" enddate="1760"/>
+            </composer>
+            <lyricist xml:id="sd03xkj">
+               <persName role="lyricist" corresp="#lichtenbergJC">Johann Conrad
+                  Lichtenberg</persName>
+               <date startdate="1689" enddate="1751"/>
+            </lyricist>
+            <funder>
+               <persName role="employer">Ernst-Ludwig von Hessen-Darmstadt</persName>
+               <date startdate="1667" enddate="1739"/>
+            </funder>
+            <creation>
+               <geogName>Darmstädter Hof</geogName>
+               <date type="firstperformance">23. November 1721, 24. Sonntag nach
+                  Trinitatis</date>
+               <geogName type="firstperformance">Schlosskapelle zu Darmstadt</geogName>
+               <region type="fuerstentum">Landgrafschaft Hessen-Darmstadt</region>
+               <periodName>Barock</periodName>
+               <name role="musicalensemble">Hofkapelle zu Darmstadt</name>
+               <persName role="musicaldirector" corresp="#graupnerC">Christoph Graupner</persName>
+            </creation>
+            <perfMedium>
+               <perfResList type="instrumentation">
+                  <perfRes>Horn in F 1</perfRes>
+                  <perfRes>Horn in F 2</perfRes>
+                  <perfRes>Oboe 1</perfRes>
+                  <perfRes>Oboe 2</perfRes>
+                  <perfRes>Violine 1</perfRes>
+                  <perfRes>Violine 2</perfRes>
+                  <perfRes>Violetta 1</perfRes>
+                  <perfRes>Violetta 2</perfRes>
+                  <perfRes>Viola</perfRes>
+                  <perfRes>Sopran 1</perfRes>
+                  <perfRes>Sopran 2</perfRes>
+                  <perfRes>Alt</perfRes>
+                  <perfRes>Tenor</perfRes>
+                  <perfRes>Bass</perfRes>
+                  <perfRes>Basso continuo</perfRes>
+                  <perfRes>Violone</perfRes>
+               </perfResList>
+            </perfMedium>
+            <audience>Darmstädter Hofstaat</audience>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation xml:id="manifestation_1" type="musicalsource">
+            <titleStmt>
+               <title>Hertzlich thut mich verlangen</title>
+               <composer>Christoph Graupner <date startdate="1683" enddate="1760"/>
+               </composer>
+               <contributor role="copist">Kopist 1 <!-- ergänzen und überarbeiten! Liste einfügen oder auf ein Facsimile verweisen? -->
+                  <annot>Beim Vergleich der Handschrift unten in der Canto-2-Stimme mit den anderen
+                     Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen
+                     Kopisten handelt.</annot>
+                  <ref>Fol. 23r</ref>
+               </contributor>
+               <contributor role="copist">Kopist 2 <annot>Beim Vergleich der Handschrift in der
+                     Canto-[bis]-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der
+                     Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
+                  <ref>Fol. 24r</ref>
+               </contributor>
+               <contributor role="copist">Kopist 3 <annot>Beim Vergleich der Handschrift in der
+                     Alto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht
+                     nahe, dass es sich um einen Kopisten handelt.</annot>
+                  <ref>Fol. 26r</ref>
+               </contributor>
+            </titleStmt>
+            <physDesc>
+               <titlePage>
+                  <title>Hertzlich thut mich verlangen</title>
+                  <identifier type="librarycode">Mus 429/28 </identifier>
+                  <identifier type="systematicbyGraupner"> i54. </identifier>
+                  <identifier type="unknown"> 28 <add>Bleistifteintrag</add>
+                  </identifier>
+                  <identifier type="unknown"> f(28)11. <add>Bleistifteintrag</add>
+                  </identifier>
+                  <contents>
+                     <contentItem>Partitur</contentItem>
+                  </contents>
+                  <date type="cantatacyclereference">13= Jahrgang. 1721</date>
+               </titlePage>
+               <dimensions>
+                  <height>34,5cm</height>
+                  <width>21cm</width>
+               </dimensions>
+               <bindingDesc>
+                  <condition>Faltung brüchig</condition>
+               </bindingDesc>
+               <scriptDesc>Kurrentschrift; Wörter aus dem lateinischen Sprachraum in lateinischer
+                  Schrift <dedicatee> I.N.J. [In nomine Jesu] <locus corresp="#foliationNiebergall"
+                        >Fol. 1r</locus>
+                  </dedicatee>
+                  <dedicatee> Soli Deo Gloria <locus corresp="#foliationNiebergall">Fol. 7v</locus>
+                  </dedicatee>
+                  <date isodate="1721" type="compositionDate"> M. N. 1721 [Mitte November 1721?]
+                  </date>
+               </scriptDesc>
+               <condition type="conditionOfInk"> Einige Folia stärker beschädigt durch
+                  Tintenkorrosion, jedoch noch lesbar <locus corresp="#foliationNiebergall">Fol.1r,
+                     3v, 4r, 6v-7v, 8r, 10r-11r, 12r-13r, 16r-17r</locus>
+               </condition>
+               <condition type="generalCondition"> Generell gute Lesbarkeit der Quelle, kaum
+                  Korrekturen in der Partitur und den Instrumentalstimmen. Es handelt sich
+                  wahrscheinlich um eine Reinschrift. </condition>
+               <stamp>
+                  <locus>Titelseite, Fol. 1r, 8r, 9v, 10r, 13v, 14v, 15v, 16r, 18v, 19r, 20r, 22v,
+                     23r, 24r, 26r, 27r, 28v</locus>
+                  <address>
+                     <addrLine>Grossherzoglich</addrLine>
+                     <addrLine>Hessische</addrLine>
+                     <addrLine>Hofbibliothek</addrLine>
+                  </address>
+               </stamp>
+               <layoutDesc>
+                  <layout type="useOfSpace">Seite in Partitur maximal ausgenutzt </layout>
+                  <layout type="manuscriptStructure">
+                     <locusGrp>
+                       
+                        <locus xml:id="manifestation_1_sourceB" corresp="#source_B"> Partitur Fol.
+                           1r-7v </locus>
+                      
+                        <locus xml:id="manifestation_1_sourceA" corresp="#source_A"> Instrumental-
+                           und Vokalstimmen Fol. 8r-28v </locus>
+                     </locusGrp>
+                  </layout>
+               </layoutDesc>
+               <supportDesc>
+                  <foliation>
+                     <p>Beschreibung beider Blattnummeriungen <list>
+                           <li xml:id="foliationNiebergall">Niebergall</li>
+                           <li xml:id="foliationgraupner">Graupner</li>
+                        </list>
+                     </p>
+                     <p xml:id="foliationConcention">[Angabe zur Blattnummerierung innerhalb der
+                        Edition]</p>
+                  </foliation>
+               </supportDesc>
+            </physDesc>
+            <physLoc>
+               <repository>
+                  <identifier type="RISM" auth="D-Ds">Universitäts und Landesbibliothek Darmstadt </identifier>
+                  <identifier auth="library">Mus ms 429-28</identifier>
+                  <identifier auth="RISM-ID">450005983</identifier>
+               </repository>
+            </physLoc>            
+            <langUsage>
+               <language>Deutsch</language>
+            </langUsage> 
+             <relationList> 
+               <relation rel="isEmbodimentOf" target="#source_A"/>
+                <relation rel="isEmbodimentOf" target="#source_B"/>
+            </relationList> 
+         </manifestation>         
+         <manifestation>
+            <titleStmt>
+               <title></title>
+            </titleStmt>
+            <physDesc></physDesc>
+            <physLoc></physLoc>
+            <langUsage>
+               <language></language>
+            </langUsage>           
+            <itemList></itemList>        
+         </manifestation>         
+         <manifestation xml:id="manifestation_2" type="textsource">           
+            <titleStmt>
+               <title> Glaubige Sehnsucht nach seeligem Sterben Geistliche Betrachtungen/welche nach
+                  gewissen in denen Fest- und Sontags Evangeliis enthaltenen Materien/poetisch
+                  verfasset/In der Hoch=Fürstl. Hof=Capelle zu DARMSTADT das gantze 1721.te Jahr
+                  hindurch in der ordentlichen Kirchen=MUSIC sollen musiciret werden.
+               </title>
+               <author corresp="#lichtenbergJC"> Johann Conrad Lichtenberg <date startdate="1689"
+                     enddate="1751"/>
+               </author>
+            </titleStmt>
+            <pubStmt>
+               <publisher>Caspar Klug/ Fürstl. Hessis. Hof= und Cantzley=Buchdrucker.</publisher>
+               <pubPlace>Darmstadt</pubPlace>
+            </pubStmt>
+            <physDesc>
+               <dimensions> Oktavformat </dimensions>
+               <extent> 173 Seiten </extent>
+               <typeDesc> Gothischer Schriftsatz, mit Ausnahme von Wörtern aus dem lateinischen
+                  Sprachraum. Choraltexte und Texte, die nicht als Rezitativ gedacht sind, werden
+                  größer gedruckt. </typeDesc>
+               <layoutDesc>
+                  <layout type="fontsize">
+                     <p>Die Quelle verwendet verschiedene Schriftgrößen, die auf verschiedene
+                        Funktionen innerhalb der Vertonung hinweisen:</p>
+                     <p>Choralstrophen sind immer größer gedruckt, ebenso wie für Arien vorgesehene
+                        Verse. Die für Rezitative vorgesehenen Verse sind hingegen kleiner
+                        gestochen.</p>
+                  </layout>
+                  <layout type="manuscriptStructure">
+                     <locusGrp>
+                        <locus xml:id="manifestation_2_sourceC" corresp="#source_C"> S. 171-173
+                        </locus>
+                     </locusGrp>
+                  </layout>
+               </layoutDesc>
+            </physDesc>
+            <physLoc>
+               <repository>
+                  <corpName type="library">Theologische Bibliothek der Universität
+                     Marburg</corpName>
+                  <identifier type="librarysignature">760 </identifier>
+               </repository>
+            </physLoc>
+            <langUsage>
+               <language>Deutsch</language>
+            </langUsage>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music>
+     
+      <facsimile xml:id="facs_Manifest1_sourceA">
+         <surface xml:id="FacsContinuoPart" label="continuo"> 
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/17">
+               <zone xml:id="FacsContinuoPart_page1"/> 
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18">
+               <zone xml:id="FacsContinuoPart_page2"/>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/19">
+               <zone xml:id="FacsContinuoPart_page3"/> 
+            </graphic>
+         </surface> 
+         <surface xml:id="FacsViolinoVioletta1Part" label="violinoVioletta1">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/20">
+               <zone xml:id="FacsViolinoVioletta1Part_page1"></zone>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/21">
+               <zone xml:id="FacsViolinoVioletta1Part_page2"></zone>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/22">
+               <zone xml:id="FacsViolinoVioletta2Part_page2"></zone>
+            </graphic>
+         </surface>
+     
+         <surface xml:id="FacsViolinoVioletta2Part" label="violinoVioletta2">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/23">
+               <zone xml:id="FacsViolinoVioletta2Part_page1"></zone>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/24">
+               
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/25"></graphic>
+         </surface>
+         
+         <surface xml:id="FacsViolaPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/27"></graphic>
+         </surface>
+         
+         <surface xml:id="FacsViolonePart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/29"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/30"></graphic>
+         </surface>
+         
+         <surface xml:id="FacsOboeFlute1Part" label="oboeFlute1">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/31">
+               <zone xml:id="FacsOboeFlute1_page1" label="B.16r." n="31" /> <!-- Un exemple pour identifier la pagination et la foliotation -->
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/32">
+               <zone xml:id="oboeFlute1_page2"/>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/33">
+               <zone xml:id="oboeFlute1_page3"/>
+            </graphic>
+         </surface>
+         
+         <surface xml:id="FacsOboeFlute2Part" label="oboeFlute2">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/34">
+               <zone xml:id="oboeFlute2_page1"/>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/35">
+               <zone xml:id="oboeFlute2_page2"/>
+            </graphic>
+         </surface>
+         
+         <surface xml:id="FacsHorn1Part" label="horn1">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/36">
+               <zone xml:id="horn1_page1"/>
+            </graphic>
+         </surface>
+         
+         <surface xml:id="FacsHorn2Part" label="horn2">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/37">
+               <zone xml:id="horn2_page1"/>
+            </graphic>
+         </surface>
+         
+         <surface xml:id="FacsCantoIPart" label="canto1">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/38">
+               <zone xml:id="canto1_page1"/>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/39">
+               <zone xml:id="canto1_page2"/>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/40">
+               <zone xml:id="canto1_page3"/>
+            </graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/41">
+               <zone xml:id="canto1_page4"/>
+            </graphic>
+         </surface>
+         
+         <surface xml:id="FacsCanto2Part">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/42"></graphic>
+         </surface>
+         <surface xml:id="FacsCantoPartCopiste1">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/43"></graphic>
+         </surface>
+         <surface xml:id="FacsAltoPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/44"></graphic>
+         </surface>
+         <surface xml:id="FacsAlto2PartCopiste2">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/46"></graphic>
+         </surface>
+         <surface xml:id="FacsTenorePart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/47"></graphic>
+         </surface>
+         <surface xml:id="FacsBaßoPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/49"></graphic>
+         </surface>
+      </facsimile>
+
+      <facsimile xml:id="facs_Manifest1_sourceB">
+
+         <surface>
+            <!-- <!-\- Quel XML:ID ici ? -\-> -->
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/2"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/3"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/4"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/5"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/6"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/7"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/8"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/9"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/10"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/11"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/12"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/13"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/14"/>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/15"/>
+         </surface>
+      </facsimile>
+      <body>
+         <mdiv 
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/1_Choral_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Choral_Herzlich_01"/>
+         <mdiv
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/2_Coro_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Coro_Herzlich_02"/>
+         <mdiv
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/3_Aria_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Aria_Herzlich_03"/>
+         <mdiv
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/4_Rezitativ_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Rezitativ_Herzlich_04"/>
+         <mdiv
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/5_Aria_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Aria_Herzlich_05"/>
+         <mdiv
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/6_Rezitativ_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Rezitativ_Herzlich_06"/>
+         <mdiv
+            corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/7_Choral_Herzlich%20tut%20mich%20verlangen.mei"
+            xml:id="Choral_Herzlich_07"/>
+      </body>
+   </music>
+</mei>
