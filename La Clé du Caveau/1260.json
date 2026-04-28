@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:1260",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:1260",
+    "ref": "all:airs:timbres:cdc:1260",
+    "local_ref": "1260",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "La clé du caveau, 4e édition, 1872, n°1260",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/1260/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/1260/mei.xml"
+        }
+    ]
+}

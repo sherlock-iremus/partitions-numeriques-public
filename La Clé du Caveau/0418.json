@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:0418",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:0418",
+    "ref": "all:airs:timbres:cdc:0418",
+    "local_ref": "0418",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "La clé du caveau, 4e édition, 1872, n° 0418",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/0418/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/0418/mei.xml"
+        }
+    ]
+}

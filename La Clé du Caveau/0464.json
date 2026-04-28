@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:0464",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:0464",
+    "ref": "all:airs:timbres:cdc:0464",
+    "local_ref": "0464",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "La clé du caveau, 4e édition, 1872, n° 0464",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/0464/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/0464/mei.xml"
+        }
+    ]
+}

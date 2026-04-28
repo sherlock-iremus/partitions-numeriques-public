@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:2120",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:2120",
+    "ref": "all:airs:timbres:cdc:2120",
+    "local_ref": "2120",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "la clé du caveau, 4e édition, 1872, n° 2120",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/2120/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/2120/mei.xml"
+        }
+    ]
+}

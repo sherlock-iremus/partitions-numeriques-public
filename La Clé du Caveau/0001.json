@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:0001",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:0001",
+    "ref": "all:airs:timbres:cdc:0001",
+    "local_ref": "0001",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "La clé du Caveau n° 0001",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/0001/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/0001/mei.xml"
+        }
+    ]
+}

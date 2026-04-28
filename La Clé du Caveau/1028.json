@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:1028",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:1028",
+    "ref": "all:airs:timbres:cdc:1028",
+    "local_ref": "1028",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "La Clé du Caveau, 4e édition, 1872, n°1028",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/1028/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/1028/mei.xml"
+        }
+    ]
+}

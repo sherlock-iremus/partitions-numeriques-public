@@ -1,0 +1,24 @@
+{
+    "id": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:1023",
+    "url": "https://neuma.huma-num.fr/home/opus/all:airs:timbres:cdc:1023",
+    "ref": "all:airs:timbres:cdc:1023",
+    "local_ref": "1023",
+    "collection_ref": "all:airs:timbres:cdc",
+    "title": "La Clé du Caveau, 4e édition, 1872, n°1023",
+    "subtitle": null,
+    "description": null,
+    "composer": null,
+    "metadata": [],
+    "features": [],
+    "sources": [],
+    "files": [
+        {
+            "name": "score.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/1023/score.xml"
+        },
+        {
+            "name": "mei.xml",
+            "url": "https://neuma.huma-num.fr//media/corpora/all/airs/timbres/cdc/1023/mei.xml"
+        }
+    ]
+}
